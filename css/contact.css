@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+#header {
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .logo {
+    display: flex;
+    text-decoration: none;
+}
+
+#header .logo img {
+    width: 100px;
+    height: 60px;
+    margin-left: 70px;
+    text-decoration: none;
+}
+
+#header .logo h2 {
+    color: #626A67;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu .item {
+    margin: 0px 40px;
+}
+
+#menu .item:hover {
+    width: 100px;
+    height: 25px;
+    background-color: burlywood;
+    border-radius: 10px;
+    text-align: center;
+ 
+}
+
+#menu .item a {
+    color: #626A67;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu .item a:hover {
+    color: #fff;
+}
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left: 35px;
+    color: #626A67;
+    font-size: 35px;
+}
+
+#actions .item:hover {
+    color: black;
+}
+
+#footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.79);
+    height: 322px;
+    padding: 57px 63px 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#footer .box {
+    width: 250px;
+    color: #fff;
+}
+
+#footer .box .quick-menu {
+    margin-top: 40px;
+}
+
+#footer .box .logo img {
+    width: 100px;
+    height: 60px;
+    box-shadow: 0 0 15px 0 rgba(134, 131, 131, 0.458);
+    border-radius: 15px;
+}
+
+#footer .box .quick-menu .item {
+    margin-bottom: 12px;
+}
+
+#footer .box .quick-menu .item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background: transparent;
+    padding-left: 20px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#footer .box form button {
+    background: #362f2f;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    color: #fff;
+}
+
+#breadcrumb_background {
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#breadcrumb_background #boxt {
+    display: flex; 
+    flex-direction: row; 
+    width: 100%; 
+    align-items: flex-start; 
+}
+
+
+#breadcrumb_background #boxt .boxt-left {
+    width: 600px;
+    height: 100vh;
+    margin: 20px 20px;
+}
+
+#breadcrumb_background #boxt .boxt-left .boxt-left-top {
+    margin-left: 20px;
+    width: 700px;
+    height: 250px;
+    background-color: bisque;
+    padding: 20px 20px;
+    
+}
+#breadcrumb_background #boxt .boxt-left .boxt-left-top .next{
+    margin-top : 20px ; 
+    display: flex;
+    margin-bottom: 10px ;
+    
+}
+#breadcrumb_background #boxt .boxt-left .boxt-left-top .next .item-l{
+    display: flex;
+    
+    
+}
+#breadcrumb_background #boxt .boxt-left .boxt-left-top .next .item-l span {
+    margin-right : 8px; 
+    margin-top : 10px ; 
+    
+}
+#breadcrumb_background #boxt .boxt-left .boxt-left-top .next .item-r{
+    display: flex;
+    
+}
+#breadcrumb_background #boxt .boxt-left .boxt-left-top .next .item-r span {
+    margin-right : 8px; 
+    margin-top : 10px ; 
+    
+}
+
+
+#breadcrumb_background #boxt .boxt-left .boxt-left-bottom {
+    margin-top: 10px ;
+    margin-left: 20px;
+    width: 700px;
+    height: 300px;
+    background-color: bisque;
+    padding: 20px 20px;
+    
+}
+#breadcrumb_background #boxt .boxt-left .boxt-left-bottom form input[type="text1"],
+#breadcrumb_background #boxt .boxt-left .boxt-left-bottom form input[type="text2"] {
+    width: 210px; /* Điều chỉnh chiều rộng cho text1 và text2 */
+}
+
+#breadcrumb_background #boxt .boxt-left .boxt-left-bottom form input[type="text3"] {
+    width: 604px; /* Điều chỉnh chiều rộng cho text3 */
+    flex-grow: 1; /* Cho phép text3 mở rộng để lấp đầy phần còn lại của input form */
+}
+
+#breadcrumb_background #boxt .boxt-left .boxt-left-bottom form input[type="text"],
+#breadcrumb_background #boxt .boxt-left .boxt-left-bottom form input[type="text1"],
+#breadcrumb_background #boxt .boxt-left .boxt-left-bottom form input[type="text2"],
+#breadcrumb_background #boxt .boxt-left .boxt-left-bottom form input[type="text3"]  {
+    height: 42px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#breadcrumb_background #boxt .boxt-left .boxt-left-bottom form button {
+    background: #362f2f;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 163px;
+    height: 38px;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#breadcrumb_background #boxt .boxt-right{
+    width: 600px; /* Điều chỉnh chiều rộng cho .boxt-right */
+    margin-left: 20px; /* Đảm bảo khoảng cách giữa .boxt-left và .boxt-right */
+    display: flex; /* Sử dụng flex để canh chỉnh nội dung bên trong */
+    flex-direction: column; /* Thiết lập chiều dọc cho nội dung bên trong .boxt-right */
+    align-items: center;
+}
+#breadcrumb_background #boxt .boxt-right iframe {
+    width: 100%; /* Đảm bảo iframe lấp đầy chiều rộng của .boxt-right */
+    height: 650px; /* Thiết lập chiều cao cho iframe */
+}
